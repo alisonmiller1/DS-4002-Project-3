@@ -8,16 +8,43 @@
 DS-4002-Project-3 Folder Outline
 │
 ├── DATA
-│   ├── Place holder
-│   └── Place holder 1
+│   ├── filter_posters10k
+│   ├── filtered_posters500
+│   ├── .DS_Store
+│   ├── movies_10y_metadata10k.csv
+│   └── movies_10y_metadata500.csv
 │
 ├── OUTPUT
-│   ├── Place holder
-│   └── Place holder 1
+│   ├── yolo_train_results
+│   ├── Intial_EDA_Visualizations.pdf
+│   └── movies_10y_metadata_with_counts.csv
 │
 ├── SCRIPTS
-│   ├── Place holder
-│   └── Place holder 1
+│   ├── ProjectPosters.yolov8
+      ├── runs/detect/train
+        └── weights
+          ├── best.pt
+          └── last.pt
+      ├── test
+        ├── images
+        ├── labels
+        └── labels.cache
+      ├── train
+        ├── images
+        ├── labels
+        └── labels.cache
+      ├── valid
+        ├── images
+        ├── labels
+        └── labels.cache
+      ├── data.yaml
+      └── yolov8s.pt
+│   ├── data_collection.ipynb
+│   ├── yolo_modeling_labeled.ipnyb
+│   ├── yolo_modeling_no_label.ipnyb
+│   └── yolov8s.pt
+│
+└── LICENSE
 │
 └── README.md
 ```
