@@ -5,6 +5,8 @@ For data downloading and preprocessing, we used Jupyter Notebook with python. Th
 
 For modeling, analysis, and evaluation with the Yolov8s model, we used python in a Jupyter Notebook.  *The packages used in these steps were “ultralytics”, “pandas”, “os”, “matplotlib”, “numpy”, and “sklearn”.  The packages not previously used, “ultralytics” and “sklearn”, need to be installed for modeling, analysis, and evaluation*.  (update after final flow”)
 
+For creating the Gradient Boosting model as well as the partial dependence plot, we again used Jupyter Notebook with python. The following packages were used: "pandas", "numpy", "scikit-learn" (specifically train_test_split, GradientBoostingRegressor, mean_squared_error, and PartialDependenceDisplay), and "matplotlib".
+
 All work was completed on Mac OS.
 
 ## Map of Documentation
@@ -44,6 +46,7 @@ DS-4002-Project-3 Folder Outline
 │   │   ├── data.yaml
 │   │   └── yolov8s.pt
 │   ├── data_collection.ipynb
+│   ├── gradient_boosting_and_plots.ipynb
 │   ├── yolo_modeling_labeled.ipnyb
 │   ├── yolo_modeling_no_label.ipnyb
 │   └── yolov8s.pt
@@ -54,6 +57,7 @@ DS-4002-Project-3 Folder Outline
 ```
 
 ## Instructions for Reproduction of Results
+To reproduce our results..
 
 
 ## References
