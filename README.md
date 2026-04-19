@@ -22,8 +22,10 @@ DS-4002-Project-3 Folder Outline
 │
 ├── OUTPUT
 │   ├── yolo_train_results
+│   ├── gradient_boost_results.png
 │   ├── Intial_EDA_Visualizations.pdf
-│   └── movies_10y_metadata_with_counts.csv
+│   ├── movies_10y_metadata_with_counts.csv
+│   └── partial_dependence_plot.png
 │
 ├── SCRIPTS
 │   ├── ProjectPosters.yolov8
