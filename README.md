@@ -3,7 +3,7 @@
 ## Software & Platform
 For data downloading and preprocessing, we used Jupyter Notebook with python. The following packages will need to be installed for downloading and preprocessing: “load_dataset”, “datetime”, “pandas”, and “os”.  EDA visualizations were also completed with python in a Jupyter Notebook file.  The “pandas”, “matplotlib”, “seaborn”, “numpy”, and “datetime” were used to complete the visualizations.  “Matplotlib”, “seaborn”, and “numpy” would need to be installed for recreation as they were not installed during the downloading and preprocessing.
 
-For modeling, analysis, and evaluation with the Yolov8s model, we used python in a Jupyter Notebook.  *The packages used in these steps were “ultralytics”, “pandas”, “os”, “matplotlib”, “numpy”, and “sklearn”.  The packages not previously used, “ultralytics” and “sklearn”, need to be installed for modeling, analysis, and evaluation*.  (update after final flow”)
+For modeling, analysis, and evaluation with the Yolov8s model, we used python in a Jupyter Notebook.  The packages used in these steps were “ultralytics”, “pandas”, “os”, “matplotlib”, “numpy”, and “sklearn”.  The packages not previously used, “ultralytics” and “sklearn”, need to be installed for modeling, analysis, and evaluation.
 
 For creating the Gradient Boosting model as well as the partial dependence plot, we again used Jupyter Notebook with python. The following packages were used: "pandas", "numpy", "scikit-learn" (specifically train_test_split, GradientBoostingRegressor, mean_squared_error, and PartialDependenceDisplay), and "matplotlib".
 
