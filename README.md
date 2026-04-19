@@ -25,24 +25,24 @@ DS-4002-Project-3 Folder Outline
 │
 ├── SCRIPTS
 │   ├── ProjectPosters.yolov8
-│   │ ├── runs/detect/train
-│   │ │ └── weights
-│   │ │   ├── best.pt
-│   │ │   └── last.pt
-│   │ ├── test
-│   │ │ ├── images
-│   │ │ ├── labels
-│   │ │ └── labels.cache
-│   │ ├── train
-│   │ │ ├── images
-│   │ │ ├── labels
-│   │ │ └── labels.cache
-│   │ ├── valid
-│   │ │ ├── images
-│   │ │ ├── labels
-│   │ │ └── labels.cache
-│   │ ├── data.yaml
-│   │ └── yolov8s.pt
+│   │   ├── runs/detect/train
+│   │   │   └── weights
+│   │   │       ├── best.pt
+│   │   │       └── last.pt
+│   │   ├── test
+│   │   │   ├── images
+│   │   │   ├── labels
+│   │   │   └── labels.cache
+│   │   ├── train
+│   │   │   ├── images
+│   │   │   ├── labels
+│   │   │   └── labels.cache
+│   │   ├── valid
+│   │   │   ├── images
+│   │   │   ├── labels
+│   │   │   └── labels.cache
+│   │   ├── data.yaml
+│   │   └── yolov8s.pt
 │   ├── data_collection.ipynb
 │   ├── yolo_modeling_labeled.ipnyb
 │   ├── yolo_modeling_no_label.ipnyb
