@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Person']
+
+roboflow:
+  workspace: alisons-workspace-b2kpp
+  project: alisons-workspace-b2kpp
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/alisons-workspace-b2kpp/alisons-workspace-b2kpp/dataset
