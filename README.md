@@ -59,8 +59,10 @@ DS-4002-Project-3 Folder Outline
 
 [3]	“Object Detection using yolov8,” Geeks for Geeks, Jul 23, 2025. https://www.geeksforgeeks.org/machine-learning/object-detection-using-yolov8/ (accessed April  5, 2026).
 
-[4]	Ultralytics, “Image Classification Datasets Overview,” Ultralytics, Feb, 2026. https://docs.ultralytics.com/datasets/classify/(accessed April  5, 2026).
+[4]	Ultralytics, “Image Classification Datasets Overview,” Ultralytics, Feb, 2026. https://docs.ultralytics.com/datasets/classify/ (accessed April  5, 2026).
 
 [5]	Vidhi Singhal. “The Most Misunderstood Part of YOLO: Confidence Thresholding & Box Decoding,” Medium, Jan 14, 2026. https://isvidhi.medium.com/the-most-misunderstood-part-of-yolo-confidence-thresholding-box-decoding-076d57222e59  (accessed April 12, 2026).
 
-[6]	Frouke Hermens, “Automatic object detection for behavioural research using YOLOv8,” PubMed Central NCBI, https://pmc.ncbi.nlm.nih.gov/articles/PMC11362367/, (accessed April 13, 2026). 
+[6]	Frouke Hermens, “Automatic object detection for behavioural research using YOLOv8,” PubMed Central NCBI, https://pmc.ncbi.nlm.nih.gov/articles/PMC11362367/ (accessed April 13, 2026). 
+
+[7] Piotr Skalski, "How to Train YOLOv8 Object Detection on a Custom Dataset," Roboflow, Jan 10,2023. https://blog.roboflow.com/how-to-train-yolov8-on-a-custom-dataset/ (accessed April 15, 2026).
