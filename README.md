@@ -7,6 +7,8 @@ For modeling, analysis, and evaluation with the Yolov8s model, we used python in
 
 For creating the Gradient Boosting model as well as the partial dependence plot, we again used Jupyter Notebook with python. The following packages were used: "pandas", "numpy", "scikit-learn" (specifically train_test_split, GradientBoostingRegressor, mean_squared_error, and PartialDependenceDisplay), and "matplotlib".
 
+X
+
 All work was completed on Mac OS.
 
 ## Map of Documentation
@@ -18,7 +20,8 @@ DS-4002-Project-3 Folder Outline
 │   ├── filtered_posters500
 │   ├── .DS_Store
 │   ├── movies_10y_metadata10k.csv
-│   └── movies_10y_metadata500.csv
+│   ├── movies_10y_metadata500.csv
+│   └── project3_data_appendix.pdf
 │
 ├── OUTPUT
 │   ├── yolo_train_results
