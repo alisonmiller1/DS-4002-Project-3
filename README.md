@@ -3,9 +3,11 @@
 ## Software & Platform
 For data downloading and preprocessing, we used Jupyter Notebook with python. The following packages will need to be installed for downloading and preprocessing: “load_dataset”, “datetime”, “pandas”, and “os”.  EDA visualizations were also completed with python in a Jupyter Notebook file.  The “pandas”, “matplotlib”, “seaborn”, “numpy”, and “datetime” were used to complete the visualizations.  “Matplotlib”, “seaborn”, and “numpy” would need to be installed for recreation as they were not installed during the downloading and preprocessing.
 
-For modeling, analysis, and evaluation with the Yolov8s model, we used python in a Jupyter Notebook.  *The packages used in these steps were “ultralytics”, “pandas”, “os”, “matplotlib”, “numpy”, and “sklearn”.  The packages not previously used, “ultralytics” and “sklearn”, need to be installed for modeling, analysis, and evaluation*.  (update after final flow”)
+For modeling, analysis, and evaluation with the Yolov8s model, we used python in a Jupyter Notebook.  The packages used in these steps were “ultralytics”, “pandas”, “os”, “matplotlib”, “numpy”, and “sklearn”.  The packages not previously used, “ultralytics” and “sklearn”, need to be installed for modeling, analysis, and evaluation.
 
 For creating the Gradient Boosting model as well as the partial dependence plot, we again used Jupyter Notebook with python. The following packages were used: "pandas", "numpy", "scikit-learn" (specifically train_test_split, GradientBoostingRegressor, mean_squared_error, and PartialDependenceDisplay), and "matplotlib".
+
+For the regression modeling, "pandas", "numpy", "matplotlib", and "sklearn" were used in a python notebook file.  These packages have been installed in pervious steps.
 
 All work was completed on Mac OS.
 
@@ -18,7 +20,8 @@ DS-4002-Project-3 Folder Outline
 │   ├── filtered_posters500
 │   ├── .DS_Store
 │   ├── movies_10y_metadata10k.csv
-│   └── movies_10y_metadata500.csv
+│   ├── movies_10y_metadata500.csv
+│   └── project3_data_appendix.pdf
 │
 ├── OUTPUT
 │   ├── yolo_train_results
@@ -53,14 +56,17 @@ DS-4002-Project-3 Folder Outline
 │   ├── yolo_modeling_no_label.ipnyb
 │   └── yolov8s.pt
 │
+├── DS4002 Project 3 Slides.pdf
+│
 ├── LICENSE
 │
 └── README.md
 ```
 
 ## Instructions for Reproduction of Results
-To reproduce our results..
+To reproduce our results, first run the file in the SCRIPTS folder titled ‘data_collection.ipynb’.  This will produce a metadata .csv file and a folders of images for the 10,000 movie poster images.  Ensure all necessary packages are downloaded for this first step.  Given the streaming of the data, the preprocess cleaning will also be completed by this script.  These folders are also available for download in the DATA directory, ‘filtered_poster10k’, and ‘movies_10y_metadata10k.csv. Download ‘ProjectPosters.yolov8’ directory and ensure you are in the correct directory for the next step.  Run the ‘yolo_modeling_labeled.ipnyb’ script to train the model on the custom class. Next, generate results .csv and append to metadata.csv.  This data can also instead be downloaded from the OUTPUT directory and is titled ‘movies_10y_metadata_with_counts_both.csv’. 
 
+To begin modeling, download and run the ‘gradient_boosting_and_plots.ipnyb’ file from the SCRIPT directory. Ensure all packages are installed for this step.  After running the file, the results should mimic the ‘gradient_boost_results.png’ and ‘partial_dependence_plot.png’ in the OUTPUT folder. For the regression modeling, *****
 
 ## References
 [1] 	stzhao, “Datasets: stzhao/movie_posters_100k_controlnet,” Hugging Face, Nov 19 ,2024. https://huggingface.co/datasets/stzhao/movie_posters_100k_controlnet (accessed April  5, 2026).
