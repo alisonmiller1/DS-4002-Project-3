@@ -56,6 +56,8 @@ DS-4002-Project-3 Folder Outline
 │   ├── yolo_modeling_no_label.ipnyb
 │   └── yolov8s.pt
 │
+├── DS4002 Project 3 Slides.pdf
+│
 ├── LICENSE
 │
 └── README.md
