@@ -7,7 +7,7 @@ For modeling, analysis, and evaluation with the Yolov8s model, we used python in
 
 For creating the Gradient Boosting model as well as the partial dependence plot, we again used Jupyter Notebook with python. The following packages were used: "pandas", "numpy", "scikit-learn" (specifically train_test_split, GradientBoostingRegressor, mean_squared_error, and PartialDependenceDisplay), and "matplotlib".
 
-X
+For the regression modeling, "pandas", "numpy", "matplotlib", and "sklearn" were used in a python notebook file.  These packages have been installed in pervious steps.
 
 All work was completed on Mac OS.
 
