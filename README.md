@@ -24,9 +24,17 @@ DS-4002-Project-3 Folder Outline
 │   └── project3_data_appendix.pdf
 │
 ├── OUTPUT
+│   ├── linreg_plots
+│   │   ├── Baseline Model: Actual vs Predicted_actual_vs_predicted.png
+│   │   ├── Baseline Model: Residual Plot_residuals.png
+│   │   ├── Model L: Actual vs Predicted_actual_vs_predicted.png
+│   │   ├── Model L: Residual Plot_residuals.png
+│   │   ├── Model UL: Actual vs Predicted_actual_vs_predicted.png
+│   │   └── Model UL: Residual Plot_residuals.png
 │   ├── yolo_train_results
 │   ├── gradient_boost_results.png
 │   ├── Intial_EDA_Visualizations.pdf
+│   ├── linreg_results.png
 │   ├── movies_10y_metadata_with_counts.csv
 │   └── partial_dependence_plot.png
 │
@@ -52,6 +60,7 @@ DS-4002-Project-3 Folder Outline
 │   │   └── yolov8s.pt
 │   ├── data_collection.ipynb
 │   ├── gradient_boosting_and_plots.ipynb
+│   ├── linear_regression.ipynb
 │   ├── yolo_modeling_labeled.ipnyb
 │   ├── yolo_modeling_no_label.ipnyb
 │   └── yolov8s.pt
